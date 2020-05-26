@@ -5,7 +5,7 @@ html, body {
 body {
     margin: 20px;
     background-color: rgb(228, 228, 228);
-    /* min-height: 3000px; */
+     min-height: 3000px; 
 }
 input[type="number"]{
     width: 80px;
@@ -20,4 +20,44 @@ input[type="number"]{
 .selected-item {
     background-color: #b0d0ffb3;
     border-color: #88b2f6;;
+}
+
+.house-pigs {
+    position: relative;
+    max-width: 420px;
+    min-height: 200px;
+    margin-top: 100px;
+    padding-bottom: 10px;
+    border: 1px solid #55238a;
+
+    p, a {
+        padding-left: 6px;
+    }
+}
+
+.house-pigs__roof {
+    position: absolute;
+    top: -51px;
+    border-left: 211px solid transparent;
+    border-right: 209px solid transparent;
+    border-bottom: 50px solid #55238a;
+}
+
+.tooltip {
+    position: fixed;
+    max-width: 300px;
+    min-height: 20px;
+    padding: 10px 15px;
+    z-index: 100;
+    border: 1px solid #7d96ce;
+    background-color: #e7ddee;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px -4px #606060;
+    line-height: 20px;
+    text-align: center;
+    font: {
+        size: 15px;
+        family: sans-serif;
+        style: italic;
+    }
 }
