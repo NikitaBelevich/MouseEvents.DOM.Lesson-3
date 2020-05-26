@@ -1,22 +1,25 @@
 html, body {
-    font-family: serif;
-}
-body {
-    margin: 20px;
-    background-color: rgb(228, 228, 228);
-    /* min-height: 3000px; */
-}
-input[type="number"]{
-    width: 80px;
+  font-family: serif;
 }
 
-.file-list{
-    padding-left: 5px;
-    border: 1px solid transparent;
-    font-size: 1.2rem;
-    cursor: pointer;
+body {
+  margin: 20px;
+  background-color: #e4e4e4;
+  /* min-height: 3000px; */
 }
+
+input[type="number"] {
+  width: 80px;
+}
+
+.file-list {
+  padding-left: 5px;
+  border: 1px solid transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
 .selected-item {
-    background-color: #b0d0ffb3;
-    border-color: #88b2f6;;
+  background-color: #b0d0ffb3;
+  border-color: #88b2f6;
 }
